@@ -53,6 +53,17 @@ function boldPassage(word, text) {
   return htmlString + "</p>";
 }
 
+function threeMostCommonWords(text) {
+  const textPassage = text;
+  let arrayPassage = text.split(" ");
+  let arrayOccurence = [];
+  let arrayLimitedToOne = [];
+  arrayPassage.forEach
+  arrayPassage.forEach(function(element, index) {
+    arrayOccurence[index] = numberOfOccurrencesInText(index, textPassage)
+  }
+}
+
 // UI Logic
 
 $(document).ready(function(){

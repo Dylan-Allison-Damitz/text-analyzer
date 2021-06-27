@@ -105,3 +105,12 @@ const word = "hello";
 const text = "hello there";
 boldPassage(word, text);
 Expected Output: "<p><b>hello</b> there</p>"
+
+Describe: threeMostCommonWords()
+
+Test: "It should return 3 words from text with values of 1, each."
+Code:
+const text = "hello";
+Expected Output:  "WordA: 1"
+                  "WordB: 1"
+                  "WordC: 1"
